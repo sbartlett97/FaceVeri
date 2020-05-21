@@ -8,7 +8,6 @@ using Emgu.CV.Face;
 using AForge.Video;
 using AForge.Video.DirectShow;
 using System.Collections.Generic;
-using FinalYearProject.Properties;
 
 namespace FinalYearProject
 {

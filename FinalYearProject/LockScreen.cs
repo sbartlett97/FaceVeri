@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-
 using Emgu.CV;
 using Emgu.CV.Structure;
 using Emgu.CV.CvEnum;
-
 using Emgu.CV.Face;
 using AForge.Video;
 using AForge.Video.DirectShow;

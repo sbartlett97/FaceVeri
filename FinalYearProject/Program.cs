@@ -1,12 +1,6 @@
 ﻿using FinalYearProject.Properties;
 using System;
-using System.Collections.Generic;
-using System.Deployment.Application;
-using System.Drawing.Text;
-using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Threading.Tasks;
 using System.Timers;
 using System.Windows.Forms;
 
@@ -67,7 +61,6 @@ namespace FinalYearProject
             settings.Dispose();
             Properties.Settings.Default.Reload();
             SetTimer();
-            Console.WriteLine("Only executed after settings closed!");
         }
         private static void SetTimer()
         {

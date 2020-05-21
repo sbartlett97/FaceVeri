@@ -1,23 +1,8 @@
 ﻿using System;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using System.Configuration;
-using System.Collections.Specialized;
-using Emgu.CV;
-using Emgu.CV.Structure;
-using Emgu.CV.CvEnum;
-
-using System.Threading;
-using System.Threading.Tasks;
-using Emgu.CV.Face;
-using AForge.Video;
 using AForge.Video.DirectShow;
 using System.Collections.Generic;
-using FinalYearProject.Properties;
-using System.Linq;
-using System.Resources;
+
 
 namespace FinalYearProject
 {
