@@ -163,5 +163,10 @@ namespace FinalYearProject
             cam.NewFrame += Cam_NewFrame;
             cam.Start();
         }
+
+        private void camViewer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

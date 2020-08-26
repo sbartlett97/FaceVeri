@@ -81,7 +81,6 @@ namespace FinalYearProject
         private void LockScreen_Load(object sender, EventArgs e)
         {
             this.TopMost = true;
-            this.BackgroundImage = Properties.Resources.background1;
             this.BackgroundImageLayout = ImageLayout.Stretch;
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;

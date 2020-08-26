@@ -108,6 +108,11 @@
     <Compile Include="EnrollFace.Designer.cs">
       <DependentUpon>EnrollFace.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,14 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -181,7 +181,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\haarcascade_frontalcatface_extended.xml" />
+    <None Include="Resources\cascade_classifier.xml" />
     <None Include="Resources\61457.ico" />
     <None Include="Resources\AppIcon.ico" />
     <None Include="bin\x64\Debug\testImages\background.jpg" />

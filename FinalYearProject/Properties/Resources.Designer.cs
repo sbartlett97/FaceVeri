@@ -71,26 +71,6 @@ namespace FinalYearProject.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap background1 {
-            get {
-                object obj = ResourceManager.GetObject("background1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] digital_7 {
-            get {
-                object obj = ResourceManager.GetObject("digital_7", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
         ///&lt;!--
         /// A frontal cat face detector using the full set of Haar features, i.e.
@@ -107,9 +87,19 @@ namespace FinalYearProject.Properties {
         ///   (tutorial). ISMAR 2014. September 9, 2014.
         ///   http://nummist.com/open [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string haarcascade_frontalcatface_extended {
+        internal static string cascade_classifier {
             get {
-                return ResourceManager.GetString("haarcascade_frontalcatface_extended", resourceCulture);
+                return ResourceManager.GetString("cascade_classifier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] digital_7 {
+            get {
+                object obj = ResourceManager.GetObject("digital_7", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
